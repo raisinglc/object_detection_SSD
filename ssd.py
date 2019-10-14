@@ -570,9 +570,9 @@ class BOXES_LOSS():
 #################################################################################################
 class Boxes_decode(object):
     def __init__(self):
-        self.score_theshold = 0.6
+        self.score_theshold = 0.85
         self.top_k = 50
-        self.nms_thshd = 0.25
+        self.nms_thshd = 0.6
         self.boxes = tf.placeholder(dtype='float32', shape=(None,4))
         self.scores = tf.placeholder(dtype='float32', shape =(None,))
         self.nms = tf.image.non_max_suppression(self.boxes, self.scores,self.top_k,iou_threshold=self.nms_thshd)

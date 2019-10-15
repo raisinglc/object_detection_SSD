@@ -14,4 +14,5 @@ Reference:
 2. MobileNetV2: https://arxiv.org/abs/1801.04381
 3. https://github.com/tensorflow/models/tree/master/research/object_detection/models
 4. https://github.com/tanakataiki/ssd_kerasV2
+5. https://deepdrive.berkeley.edu/
 

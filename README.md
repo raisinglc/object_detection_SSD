@@ -9,6 +9,8 @@ Dataset: DeepDrive
 Threshold of nms is 0.6.
 Threshold of score is 0.85
 
+Chuan Lu
+
 Reference:
 1. SSD: https://arxiv.org/abs/1512.02325
 2. MobileNetV2: https://arxiv.org/abs/1801.04381

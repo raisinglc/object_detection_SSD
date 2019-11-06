@@ -5,6 +5,7 @@ Implemention of Single Shot MultiBox Detector with MobileNetV2
 Input size: 320x320
 Dataset: DeepDrive
 
+MobileNetV2 is a light weight feature extractor designed for mobile device. 
 
 Threshold of nms is 0.6.
 Threshold of score is 0.85
